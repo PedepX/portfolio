@@ -1,5 +1,4 @@
-Feature: Meus Projetos
+[v1.0.0] [2026-05-20]
 
 ### Added
-    - Adicionado Projeto GG Support;
-    - Adcionado Projeto AnamneX.
+    - Adicionado Feature "Meus Projetos"
