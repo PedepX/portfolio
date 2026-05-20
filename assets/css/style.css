@@ -1,0 +1,29 @@
+body {
+  background-color: #69c874;
+  font-family: "Arial";
+  color: #333333;
+  padding: 10px;
+  margin: 10px;
+}
+/*Cabeçalho*/
+header {
+  background-color: #05a417;
+  padding: 20px;
+  padding: 10px;
+  margin: 10px;
+
+}
+h1 {
+  color: #cdedd1;
+  font-family: Arial;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+ul {
+  background-color: #aeffbb;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+}

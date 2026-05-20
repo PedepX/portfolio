@@ -1,0 +1,5 @@
+# Habilitar reescrita de URLs
+RewriteEngine On
+RewriteRule ^old-page\.html$ new-page.html [R=301,L]
+# Configurar página inicial padrão
+DirectoryIndex index.php index.html
