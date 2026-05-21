@@ -1,8 +1,5 @@
-Feature: Formulário
+Feature: Login
 ### Added
-    - Criado Campo "Nome";
-    - Criado Campo "E-Mail";
-    - Criado Campo "Data";
-    - Criado Campo Selecionável "Assunto";
-    - Criado Campo Mensagem;
-    - Criado botão "Enviar".
+    - Criado Campo "E-mail";
+    - Criado Campo "Senha";
+    - Criado Botão "Entrar".
