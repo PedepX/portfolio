@@ -27,3 +27,47 @@ ul {
   padding: 10px;
   margin: 10px;
 }
+
+/** Form **/
+
+form {
+  max-width: 50%;
+  background-color: #aeffbb;
+  padding: 10px;
+  display: block;
+}
+
+form input, textarea, select{
+  display: block;
+  padding: 8px;
+  margin: 10px 0px;
+  width: 97%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  color: #333333;
+}
+
+input::placeholder {
+  color: #b9b9b9;
+}
+
+input:focus {
+  border: 1px solid #05a417;
+}
+
+form textarea {
+  resize: none;
+}
+
+button {
+  background-color:#05a417;
+  color:#333333;
+  border-radius: 8px;
+  cursor: pointer;
+  border:none;
+  font-size: 1rem;
+}
+
+button:hover {
+  opacity: 0.8;
+}
