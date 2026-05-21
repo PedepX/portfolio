@@ -1,5 +1,8 @@
-Feature: Login
+Feature: Cadastro
 ### Added
-    - Criado Campo "E-mail";
-    - Criado Campo "Senha";
-    - Criado Botão "Entrar".
+    - Criado Campo "Nome";
+    - Criado Campo "Idade;
+    - Criado Campo "Data de Nascimento";
+    - Criado Campo "Curso Favorito";
+    - Criado Campo "Observações";
+    - Criado Botão "Cadastrar".
