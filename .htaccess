@@ -1,5 +1,17 @@
-# Habilitar reescrita de URLs
 RewriteEngine On
-RewriteRule ^old-page\.html$ new-page.html [R=301,L]
-# Configurar página inicial padrão
-DirectoryIndex index.php index.html
+Options All -Indexes
+
+#Bloqueia todos os arquivos que contem somente extensoes
+RewriteRule "(^|/)\." - [F]
+
+#Bloqueia arquivos com extensao especifica
+<FilesMatch "\.(env)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+#Bloqueia um arquivo especifico
+<Files "file.json">
+    Order allow,deny
+    Deny from all
+</Files>
