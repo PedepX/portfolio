@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulário de Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="http://localhost/portfolio/assets/css/style.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Apresentação -->
+      <h1>João Pedro Menezes</h1>
+      <h2 class="subtitulo">Futuro Desenvolvedor</h2>
+    </header>
+    <nav>
+      <ul class="navbar">
+        <li class="nav-item"><a href="index.html">Inicio</a></li>
+        <li class="nav-item"><a href="formulario.html">Contato</a></li>
+        <li class="nav-item"><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+    <form class="form-login" action="/login" method="post">
+      <label class="form-label" for="email">Email:</label>
+      <input type="email" id="email" placeholder="Digite seu email" required />
+
+      <label class="form-label" for="senha">Senha:</label>
+      <input type="password" id="senha" placeholder="Digite sua senha" required/>
+
+      <button type="submit">Entrar</button>
+    </form>
+  </body>
+</html>

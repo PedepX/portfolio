@@ -1,0 +1,17 @@
+RewriteEngine On
+Options All -Indexes
+
+#Bloqueia todos os arquivos que contem somente extensoes
+RewriteRule "(^|/)\." - [F]
+
+#Bloqueia arquivos com extensao especifica
+<FilesMatch "\.(env)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+#Bloqueia um arquivo especifico
+<Files "file.json">
+    Order allow,deny
+    Deny from all
+</Files>
