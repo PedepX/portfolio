@@ -1,0 +1,27 @@
+/*.item {
+    background-color: #008000;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}*/
+
+.item {
+    background: royalblue;
+    color: white;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 10px;
+}
+
+
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /*grid-template-rows: 100fr 100fr 100fr;*/
+    padding: 20px;
+}
