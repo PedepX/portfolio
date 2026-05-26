@@ -39,9 +39,9 @@
 }
 
 img {
-    max-width: 100%;
+  max-width: 150px;
+  max-height: 150px;
 }
-
 
 /* Padrão = Celular */
 .container {
@@ -50,5 +50,49 @@ img {
 @media (min-width: 768px) {
   .container {
     flex-direction: row;
+  }
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+img:hover {
+  transform: rotate(10deg);
+  animation: rotate 2s linear infinite;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transform: skew(10deg);
+}
+
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.filter-blur {
+  filter: blur(2px);
+}
+
+.filter-grayscale {
+  filter: grayscale(120%);
+}
+
+.brightness {
+  filter: brightness(100%);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
