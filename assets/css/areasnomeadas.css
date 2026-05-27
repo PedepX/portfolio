@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    display: grid;
+    grid-template-columns: 250fr 1fr;
+    grid-template-rows: 100px 1fr 80px;
+    grid-template-areas:
+      "header header"
+      "menu content"
+      "footer footer";
+  }
+}
+
+header {
+  grid-area: header;
+  background-color: #ff0000;
+}
+
+aside {
+  grid-area: menu;
+  background-color: #00ff88;
+}
+
+main {
+  grid-area: content;
+  background-color: #0044ff;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #ff00ff;
+}
+
+.area1 {
+    background-color: #7c7c7c;
+}
+
+.area2 {
+    background-color: #8a8a8a;
+}
