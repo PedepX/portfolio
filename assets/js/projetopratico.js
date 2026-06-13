@@ -6,7 +6,8 @@ const lista = document.querySelector("#lista");
 const contador = document.querySelector("#contador");
 const request = indexedDB.open("TodoDB", 1);
 
-request.onupgradeneeded = event => {
+request.onupgradeneeded = event 
+=> {
     db = event.target.result;
     db.createObjectStore("tarefas",
         {
