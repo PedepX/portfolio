@@ -1,0 +1,85 @@
+/* Reset Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f3f3f3;
+    padding: 40px;
+}
+
+/* Container Principal */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo do Formulário */
+form { 
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do Campo de Texto */
+input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Estilo do Botão */
+button {
+    padding: 12px 16px;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8
+}
+
+/* Contador de Tarefas */
+#contador {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Item da Lista */
+li {
+    list-style: none;
+    background: #f1f5f9;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estados das Tarefas */
+.concluida {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Botão Excluir */
+.excluir {
+    background: #dc2626;
+}
+
+.excluir:hover {
+    background: #b91c1c;
+}

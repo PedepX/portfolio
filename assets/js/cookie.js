@@ -17,4 +17,4 @@ function getCookie(nome) {
     }
     return null;
 }
-console.log(getCookie("Pedro"));
+console.log(getCookie("Pedro")); 
